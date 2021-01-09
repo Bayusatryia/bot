@@ -37,10 +37,10 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN: Rafi Adi Chandra\n' //Owner
-            + 'ORG:Creator Chandra;\n' // KASIH CREDITS GUA SU!!!
+            + 'FN: mr.gabut\n' //Owner
+            + 'ORG:Creator mr.gabut;\n' // KASIH CREDITS GUA SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=6282225491446:+62 822-2549-1446\n' //Chandra Ganteng 
-            + 'END:VCARD' // Chandra ID
+            + 'END:VCARD' // rans ID
 prefix = '¡'
 blocked = []
 const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
