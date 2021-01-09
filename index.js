@@ -39,7 +39,7 @@ const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN: Rafi Adi Chandra\n' //Owner
             + 'ORG:Creator Chandra;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6288238528389:+62 882-3852-8389\n' //Chandra Ganteng 
+            + 'TEL;type=CELL;type=VOICE;waid=6282225491446:+62 822-2549-1446\n' //Chandra Ganteng 
             + 'END:VCARD' // Chandra ID
 prefix = '¡'
 blocked = []
@@ -49,8 +49,8 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾ChanzBOT👾', // TOBAT SU ASU
-    instagram: 'https://instagram.com/rafiadichandra', // INFO JANGAN DI UBAH
+    A187: 'R A N S', // TOBAT SU ASU
+    instagram: 'https://instagram.com/story.anime45', // INFO JANGAN DI UBAH
     nomer: 'wa.me/6281218898489', // INFO SU JNGAN DI UBAH
     youtube: 'Tidak Ada Youtube!', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/DFyqVSqwxvfCVcpy2VAxg3', // BABI
@@ -169,7 +169,7 @@ client.on('group-participants-update', async (anu) => {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6288238528389@s.whatsapp.net"] // ganti nomer lu
+			const ownerNumber = ["6282225491446@s.whatsapp.net"] // ganti nomer lu
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -863,7 +863,7 @@ break
             case 'owner':
             case 'creator':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-       client.sendMessage(from, '𝗧𝘂𝗵 𝗱𝗮𝗵 𝗮𝗸𝘂 𝗸𝗮𝘀𝗶𝗵 𝗻𝗼𝗺𝗲𝗿 𝗖𝗢 👾ChanzBOT👾,𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗗𝗜 𝗦𝗔𝗩𝗘 𝗘𝗔 ><',MessageType.text, { quoted: mek} )
+       client.sendMessage(from, '𝗧𝘂𝗵 𝗱𝗮𝗵 𝗮𝗸𝘂 𝗸𝗮𝘀𝗶𝗵 𝗻𝗼𝗺𝗲𝗿 𝗖𝗢 *R A N S*,𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗗𝗜 𝗦𝗔𝗩𝗘 𝗘𝗔 ><',MessageType.text, { quoted: mek} )
            break    
            case 'demote':
 					if (!isGroup) return reply(mess.only.group)
