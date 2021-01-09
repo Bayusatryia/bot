@@ -51,7 +51,7 @@ const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
     A187: 'R A N S', // TOBAT SU ASU
     instagram: 'https://instagram.com/story.anime45', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6281218898489', // INFO SU JNGAN DI UBAH
+    nomer: 'wa.me/6282225491446', // INFO SU JNGAN DI UBAH
     youtube: 'Tidak Ada Youtube!', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/DFyqVSqwxvfCVcpy2VAxg3', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
