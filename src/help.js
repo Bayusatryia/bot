@@ -62,7 +62,7 @@ const help = (prefix) => {
 ┃───────────────
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃ BOT BY : CHANDRA ID
+┃ BOT BY : MR.GABUT
 ┗━━━━━━━━━━━━━━━━━━━━`
 }
 
